@@ -30,15 +30,15 @@ main {
 
 footer {
   display: inline;
-  background-color: aqua;
+  background-color: blue;
 }
 footer p {
-  background-color: aquamarine;
+  background-color: blue;
   height: 94px;
 }
 
 #carouselExampleRide {
-  background-color: aqua;
+  background-color: blue;
   max-height: auto;
 }
 
@@ -105,6 +105,35 @@ footer p {
   margin-top: 10px;
   margin-bottom: 1px;
   background-color: red;
+}
+
+.grid-cointainer4 {
+  display: grid;
+}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 0px;
+}
+
+.mb-3-input {
+  display: flex;
+  height: 200px;
+}
+
+.form-login {
+  margin-top: 50px;
+  height: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

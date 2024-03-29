@@ -35,16 +35,16 @@ main{
 
 footer{
     display: inline ;
-    background-color: aqua  ;
+    background-color: blue  ;
     
     p{
-        background-color: aquamarine;
+        background-color: blue;
         height: 94px;
     }
 }
 
 #carouselExampleRide{
-    background-color: aqua;
+    background-color: blue;
     max-height: auto  ;
 }
 
@@ -116,4 +116,37 @@ footer{
 }
 
 //LOGIN-----------------------------------------------------------
+
+.grid-cointainer4{
+    display: grid;
+    
+}
+
+
+
+.text-center {
+    text-align: center; 
+    width: 100%; 
+    padding: 0;
+    margin: 0; 
+}
+
+.contenedor-main {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin-top: 0px; 
+}
+
+.mb-3-input {
+    display: flex;
+    height: 200px;
+}
+
+
+.form-login {
+    margin-top: 50px; 
+    height: 20px; 
+}
 
