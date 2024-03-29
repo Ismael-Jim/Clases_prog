@@ -6,9 +6,6 @@ body{
 .h1{
 
     padding: 20px;
-    
-    
-    
 }
 
 .titulo{
@@ -22,10 +19,10 @@ body{
 }
 
 .header{
-    background-color: blue;
+    background-color: black;
     border: 1px solid black;
     max-height: 100px; 
-    box-sizing: border-box;
+     
 }
 
 main{
@@ -33,7 +30,6 @@ main{
     height: 535px;
     display: inline-block;
     justify-content:center;
-
 }
 
 
@@ -45,12 +41,6 @@ footer{
         background-color: aquamarine;
         height: 94px;
     }
-    
-    
-    
-    
-    
-
 }
 
 #carouselExampleRide{
@@ -125,5 +115,5 @@ footer{
     background-color: red;
 }
 
-
+//LOGIN-----------------------------------------------------------
 
