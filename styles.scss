@@ -1,4 +1,4 @@
-// --------index------------
+/* --------index------------*/
 body{
     background-color: red;
     height: 572px;
@@ -35,16 +35,16 @@ main{
 
 footer{
     display: inline ;
-    background-color: blue  ;
+    background-color: aqua  ;
     
     p{
-        background-color: blue;
+        background-color: aquamarine;
         height: 94px;
     }
 }
 
 #carouselExampleRide{
-    background-color: blue;
+    background-color: aqua;
     max-height: auto  ;
 }
 
@@ -115,38 +115,31 @@ footer{
     background-color: red;
 }
 
-//LOGIN-----------------------------------------------------------
-
-.grid-cointainer4{
-    display: grid;
-    
-}
-
-
-
-.text-center {
-    text-align: center; 
-    width: 100%; 
+html, body {
+    height: 100%;
+    margin: 0;
     padding: 0;
-    margin: 0; 
 }
 
-.contenedor-main {
+/*LOGIN-----------------------------------------------------------*/
+
+.container-fluid {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh;
-    margin-top: 0px; 
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Esto asegura que el main ocupe toda la altura de la ventana del navegador */
+    max-height: 572px;
+}
+.contenedor-main{
+    max-height: 572px;
 }
 
-.mb-3-input {
-    display: flex;
-    height: 200px;
+.input{
+    width: 300px;
+
 }
-
-
-.form-login {
-    margin-top: 50px; 
-    height: 20px; 
+.height{
+    height: 50%;
+    grid-row: 200px;
 }
 
