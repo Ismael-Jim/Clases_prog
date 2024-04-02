@@ -1,0 +1,1 @@
+tambien pueden crear los repositorios desde vscode, cmd+shift+p o ctrl+shift+p, buscar git publish ahi le dan a repositorio privado o publico
