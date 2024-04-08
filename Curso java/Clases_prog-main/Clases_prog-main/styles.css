@@ -64,7 +64,8 @@ footer p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
-.grid-container2 .carousel-imagen {
+.grid-container2 
+.carousel-imagen {
   width: 500px;
   max-width: 90%;
   height: 200px;
@@ -81,7 +82,8 @@ footer p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
-.grid-container3 .carousel-imagen {
+.grid-container3 
+.carousel-imagen {
   width: 500px;
   max-width: 90%;
   height: 200px;
